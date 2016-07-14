@@ -1,0 +1,20 @@
+{
+    "name": "frederikvosberg/composertest-root",
+    "description": "Composer test with satis",
+    "authors": [
+        {
+            "name": "Frederik Vosberg",
+            "email": "hallo@frederikvosberg.de"
+        }
+    ],
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
+		{ "type": "composer", "url": "http://composertest.frederikvosberg.de" }
+	],
+    "require": {
+        "frederikvosberg/composertest-a": "^1.0"
+    },
+	"config": {
+		"secure-http": false
+	}
+}

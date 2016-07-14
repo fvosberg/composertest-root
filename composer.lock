@@ -1,0 +1,78 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a1d1acd4f4280b074550b17135e70c69",
+    "content-hash": "304948a9bb4618a2584ed51395db2994",
+    "packages": [
+        {
+            "name": "frederikvosberg/composertest-a",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fvosberg/composer-a.git",
+                "reference": "fdd41266f76f7d65997adec7a9ed646e7e699eed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fvosberg/composer-a/zipball/fdd41266f76f7d65997adec7a9ed646e7e699eed",
+                "reference": "fdd41266f76f7d65997adec7a9ed646e7e699eed",
+                "shasum": ""
+            },
+            "require": {
+                "frederikvosberg/composertest-b": "^1.0.0"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Frederik Vosberg",
+                    "email": "hallo@frederikvosberg.de"
+                }
+            ],
+            "description": "Just a test with composer and satis",
+            "support": {
+                "source": "https://github.com/fvosberg/composer-a/tree/v1.0.1",
+                "issues": "https://github.com/fvosberg/composer-a/issues"
+            },
+            "time": "2016-07-14 19:18:44"
+        },
+        {
+            "name": "frederikvosberg/composertest-b",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fvosberg/composer-b.git",
+                "reference": "fced7abe84b7982c690c555e822ecf86d420c6d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fvosberg/composer-b/zipball/fced7abe84b7982c690c555e822ecf86d420c6d9",
+                "reference": "fced7abe84b7982c690c555e822ecf86d420c6d9",
+                "shasum": ""
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Frederik Vosberg",
+                    "email": "hallo@frederikvosberg.de"
+                }
+            ],
+            "description": "Just a test with composer and satis",
+            "support": {
+                "source": "https://github.com/fvosberg/composer-b/tree/master",
+                "issues": "https://github.com/fvosberg/composer-b/issues"
+            },
+            "time": "2016-07-14 19:01:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
